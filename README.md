@@ -1,22 +1,25 @@
 # Alfie Mowle
 
 MSc Advanced Aerospace Engineering graduate (Distinction; top student and best project) from the University of Liverpool.  
-I like applying **AI and numerical methods** to real engineering problems: time-series forecasting, modelling, control and simulation.
+I like applying **AI and numerical methods** to real engineering problems: time-series forecasting, orbital mechanics, modelling, control and simulation.
 
 ## Technical focus
 
-- Machine learning / AI: PyTorch, scikit-learn, XGBoost, Optuna  
-- Time-series pipelines: custom Datasets/DataLoaders, reproducible splits, residual analysis, regression tracking  
-- Modelling and control: MATLAB/Simulink, PX4/Pixhawk, Kalman filtering  
-- Engineering tools: SolidWorks, Teamcenter, FORAN, AutoCAD  
-- Workflow: Linux, Git, GPU/CPU management, LaTeX reporting
+- **Machine learning / AI:** PyTorch, scikit-learn, XGBoost, Optuna  
+- **Time-series pipelines:** custom Datasets/DataLoaders, reproducible splits, baselines, residuals, regression tracking  
+- **Modelling and control:** MATLAB/Simulink, PX4/Pixhawk, Kalman filtering  
+- **Aerospace & numerical methods:** orbital propagation, ODE integration, 3D visualisation  
+- **Engineering tools:** SolidWorks, Teamcenter, FORAN, AutoCAD  
+- **Workflow:** Linux, Git, GPU/CPU management, LaTeX reporting
 
-## Selected project
+## Selected projects
 
-- [solar-activity-forecasting](https://github.com/alfiemowle/solar-activity-forecasting)  
-  Time-series forecasting of solar activity using LSTM, Transformer, autoencoder and XGBoost in PyTorch.  
-  Includes reproducible pipelines with fixed splits, baseline models, seed control, experiment logging and error analysis.  
-  Based on my MSc dissertation, which received a mark of 94% and the Best Project award.
+- **[solar-activity-forecasting](https://github.com/alfiemowle/solar-activity-forecasting)**  
+  Time-series forecasting of solar activity using LSTM, Transformer, autoencoder and XGBoost models. Includes reproducible pipelines with fixed splits, baseline comparisons, seed control, experiment logging and error analysis. Based on my MSc dissertation (94%, Best Project).
+
+- **[numerical-orbit-propagation](https://github.com/alfiemowle/numerical-orbit-propagation)**  
+  A clean, self-contained Python notebook demonstrating orbital mechanics:  
+  converting orbital elements → Cartesian state, integrating the equations of motion using SciPy `solve_ivp`, and visualising trajectories in 2D, 3D, and interactive Plotly animation. Showcases practical aerospace simulation, ODE methods and scientific-Python workflow.
 
 ## Academic background
 
